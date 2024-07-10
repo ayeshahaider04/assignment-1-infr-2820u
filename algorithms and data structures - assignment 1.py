@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Ayesha Haider 100869659
 # Assignment 1 algorithms and data structures 
 
@@ -53,7 +47,7 @@ def InsertProduct(products, InsertedProduct):
     print("list after inserting new product:")
     for product in products:
         print(product)
-InsertedProduct = Product(6, "Fig", 2.50, "Fruit")
+InsertedProduct = Product(6, "towel", 8.40, "Home & Kitchen")
 InsertProduct(product_list, InsertedProduct)
 
 #array operation delete:
@@ -65,7 +59,7 @@ def DeleteProduct(products, ProductName):
             break
     else:
         print(f"product '{ProductName}' was not found.")
-DeleteProduct(product_list, "Fig")
+DeleteProduct(product_list, "towel")
 
 # Task 3 sorting algorithm
 #array sorting method bubble sort 
@@ -81,8 +75,6 @@ print("\nUpdated product list priced lowest to highest:")
 for product in product_list:
     print(product)
 
-
-# In[ ]:
 
 
 
